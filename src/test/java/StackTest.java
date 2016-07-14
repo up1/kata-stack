@@ -17,4 +17,11 @@ public class StackTest {
         assertEquals(1, stack.size());
     }
 
+    @Test public void
+    ขนาดของ_Stack_จะเพิ่มขึ้นเมื่อทำการ_push_ข้อมูลมากกว่าหนึ่ง() {
+        stack.push("A");
+        stack.push("B");
+        assertEquals(2, stack.size());
+    }
+
 }
