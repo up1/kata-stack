@@ -1,5 +1,11 @@
 public class StackString {
+    private int size;
+
     public int size() {
-        return 0;
+        return this.size;
+    }
+
+    public void push(String input) {
+        this.size++;
     }
 }
