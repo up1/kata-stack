@@ -24,4 +24,19 @@ public class StackTest {
         assertEquals(2, stack.size());
     }
 
+    @Test public void
+    ขนาดของ_Stack_จะลดลงเมื่อ_pop_ข้อมูลออก() {
+        stack.push("A");
+        stack.pop();
+        assertEquals(0, stack.size());
+    }
+
+    @Test public void
+    ขนาดของ_Stack_จะลดลงเมื่อ_pop_ข้อมูลออกอีกครั้ง() {
+        stack.push("A");
+        stack.push("B");
+        stack.pop();
+        assertEquals(1, stack.size());
+    }
+
 }
