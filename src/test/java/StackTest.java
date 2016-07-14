@@ -39,4 +39,17 @@ public class StackTest {
         assertEquals(1, stack.size());
     }
 
+    @Test public void
+    ทำการ_pop_ข้อมูลล่าสุดออกมาจาก_Stack() {
+        stack.push("A");
+        assertEquals("A", stack.pop());
+    }
+
+    @Test public void
+    ทำการ_pop_ข้อมูลล่าสุดออกมาจาก_Stack_อีกครั้ง() {
+        stack.push("A");
+        stack.push("B");
+        assertEquals("B", stack.pop());
+    }
+
 }

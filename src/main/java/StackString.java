@@ -16,7 +16,7 @@ public class StackString {
         this.inputs.add(input);
     }
 
-    public void pop() {
-        this.inputs.remove(size()-1);
+    public String pop() {
+        return this.inputs.remove(size()-1);
     }
 }
