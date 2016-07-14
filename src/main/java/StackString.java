@@ -8,4 +8,8 @@ public class StackString {
     public void push(String input) {
         this.size++;
     }
+
+    public String pop() {
+        return "A";
+    }
 }

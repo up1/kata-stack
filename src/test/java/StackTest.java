@@ -17,6 +17,12 @@ public class StackTest {
         assertEquals(1, stack.size());
     }
 
+    @Test public void
+    ทำการ_pop_ข้อมูลล่าสุดที่เพิ่มออกจาก_stack() {
+        stack.push("A");
+        assertEquals("A", stack.pop());
+    }
+
 
 
 
