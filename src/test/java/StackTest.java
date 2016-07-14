@@ -23,6 +23,14 @@ public class StackTest {
         assertEquals("A", stack.pop());
     }
 
+    @Test public void
+    ทำการ_pop_ข้อมูลล่าสุดที่เพิ่มออกจาก_stack_อีกครั้ง() {
+        stack.push("B");
+        assertEquals("B", stack.pop());
+    }
+
+
+
 
 
 
