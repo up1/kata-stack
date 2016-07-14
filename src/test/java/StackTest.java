@@ -50,6 +50,7 @@ public class StackTest {
         stack.push("A");
         stack.push("B");
         assertEquals("B", stack.pop());
+        assertEquals("A", stack.pop());
     }
 
 }
