@@ -14,4 +14,8 @@ public class StackString {
     public String pop() {
         return this.input;
     }
+
+    public String peek() {
+        return this.input;
+    }
 }
