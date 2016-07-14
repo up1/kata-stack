@@ -19,4 +19,8 @@ public class StackString {
     public String pop() {
         return this.inputs.remove(size()-1);
     }
+
+    public String peek() {
+        return this.inputs.get(size()-1);
+    }
 }

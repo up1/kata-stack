@@ -53,4 +53,12 @@ public class StackTest {
         assertEquals("A", stack.pop());
     }
 
+    @Test public void
+    ทำการดึงข้อมูลล่าสุดจาก_Stack() {
+        stack.push("A");
+        stack.push("B");
+        assertEquals("B", stack.peek());
+    }
+
+
 }
