@@ -1,12 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class StackString {
-    private int size;
+    private List<String> inputs;
+
+    public StackString() {
+        inputs = new ArrayList<String>();
+    }
 
     public int size() {
-        return this.size;
+        return this.inputs.size();
     }
 
     public void push(String input) {
-        this.size++;
+        this.inputs.add(input);
     }
 
 }
